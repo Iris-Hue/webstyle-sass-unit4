@@ -5,12 +5,12 @@
 
 .btn {
   margin-top: 15px;
-  width: 100%;
-  color: #fff;
+  width: $wdth-full;
+  color: $white;
   border: none;
-  padding: 10px 0;
+  padding: $pad-tp-btm 0;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: $br;
 }
 
 .default {
@@ -26,9 +26,9 @@
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $lime-green;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $soft-red;
 }

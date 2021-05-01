@@ -1,15 +1,48 @@
+// font family
+$font-stack-primary: 'lato', sans-serif;
+
+//font sizes
+$line-ht: 1.45em;
+$font-size: 1.5em;
+
+//size
+$mrgn-top: 10px;
+$mrgn-lft-10: 10px;
+$mrgn-lft-20: 20px;
+$pad-all-10: 10px;
+$pad-tp-btm: 10px;
+$pad-r-l: 30px;
+$pad-lft-20: 20px;
+$border-lft: 8px;
+$br: 5px;
+
+//width and min-height
+$flex-full: 100%;
+$flex-full-px: 100px;
+$wdth-full: 100%;
+$max-wdth: 100%;
+$max-ht: 100%;
+
+
+
+
+
+
+
+
+
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-stack-primary;
   color: $color-font;
   box-sizing: border-box;
 }
 
 p {
-  line-height: 1.45em;
+  line-height: $line-ht;
 }
 
 a {
@@ -22,8 +55,8 @@ a {
 /* ============================================= */
 
 .headline-primary {
-  color: #58e1c1;
-  margin-left: 10px;
+  color: $soft-cyan;
+  margin-left: $mrgn-lft-10;
 }
 
 .headline-secondary {
@@ -37,11 +70,11 @@ a {
 }
 
 .blockquote {
-  font-size: 1.5em;
+  font-size: $font-size;
   font-weight: 300;
   font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
+  margin-left: $mrgn-lft-20;
+  padding-left: $pad-lft-20;
+  border-left: $border-lft solid $soft-cyan;
+  border-radius: $br;
 }

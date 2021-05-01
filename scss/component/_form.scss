@@ -4,7 +4,7 @@
 /* ============================================= */
 
 .form {
-  flex-basis: 100%;
+  flex-basis: $flex-full;
 }
 
 .input{
@@ -12,8 +12,8 @@
   width: 94%;
   margin: 10px auto 0;
   border: none;
-  padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  padding: $pad-all-10;
+  border-bottom: 5px solid $soft-cyan;
 }
 
 .hidden {

@@ -3,7 +3,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $break-medium) {
 
 .container {
   max-width: 1400px;
@@ -30,7 +30,7 @@
 }
 
 [class^=col] + [class^=col] {
-  margin-left: 10px;
+  margin-left: $mrgn-lft-10;
 }
 
 .col-1 {
@@ -78,7 +78,7 @@
 }
 
 .col-12 {
-  flex-basis: 100%;
+  flex-basis: $flex-full;
 }
 
 .nav {
@@ -88,15 +88,15 @@
 }
 
 .nav-link {
-  flex-basis: 100px;
+  flex-basis: $flex-full-px;
 }
 
 .btn {
-  padding: 10px 30px;
+  padding: $pad-tp-btm $pad-r-l;
 }
 
 .btn + .btn {
-  margin-left: 10px;
+  margin-left: $mrgn-lft-10;
 }
 
 .logo {

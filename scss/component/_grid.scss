@@ -5,21 +5,21 @@
 /* ============================================= */
 
 .container {
-  padding: 0 10px;
+  padding: 0 $pad-all-10;
 }
 
 .row {
   display: flex;
   flex-direction: column;
-  padding: 1em 10px;
+  padding: 1em $pad-all-10;
 }
-
+$br
 [class^=col] {
-  margin-top: 10px;
-  flex-basis: 100%;
+  margin-top: $mrgn-top;
+  flex-basis: $flex-full;
   min-height: 25px;
-  padding: 10px;
-  border-radius: 5px;
+  padding: $pad-all-10;
+  border-radius: $br;
 }
 
 .theme.col-1 {
@@ -27,7 +27,7 @@
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: $soft-red;
 }
 
 .theme.col-3 {
@@ -59,7 +59,7 @@
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: $lime-green;
 }
 
 .theme.col-11 {
@@ -71,5 +71,5 @@
 }
 
 .card {
-  flex-basis: 100%;
+  flex-basis: $flex-full;
 }
