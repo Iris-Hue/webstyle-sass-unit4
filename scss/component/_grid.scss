@@ -13,11 +13,11 @@
   flex-direction: column;
   padding: 1em $pad-all-10;
 }
-$br
+
 [class^=col] {
   margin-top: $mrgn-top;
   flex-basis: $flex-full;
-  min-height: 25px;
+  min-height: $min-ht;
   padding: $pad-all-10;
   border-radius: $br;
 }
