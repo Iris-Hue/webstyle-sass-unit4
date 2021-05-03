@@ -24,6 +24,8 @@ $max-wdth: 100%;
 $min-ht: 25px;
 $max-ht: 100%;
 
+//weight
+$fw: 300;
 
 
 
@@ -61,7 +63,7 @@ a {
 }
 
 .headline-secondary {
-  font-weight: 300;
+  font-weight: $fw;
    color: $color-font;
 }
 
@@ -72,7 +74,7 @@ a {
 
 .blockquote {
   font-size: $font-size;
-  font-weight: 300;
+  font-weight: $fw;
   font-style: italic;
   margin-left: $mrgn-lft-20;
   padding-left: $pad-lft-20;
