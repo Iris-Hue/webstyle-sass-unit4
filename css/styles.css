@@ -367,7 +367,7 @@ a {
 /*              Typography                       */
 /* ============================================= */
 .headline-primary {
-  color: #58e lcl;
+  color: #58e1c1;
   margin-left: 10px;
 }
 
@@ -387,7 +387,7 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e lcl;
+  border-left: 8px solid #58e1c1;
   border-radius: 5px;
 }
 
@@ -440,7 +440,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e lcl;
+  border-bottom: 5px solid #58e1c1;
 }
 
 .hidden {
@@ -473,7 +473,7 @@ a {
 
 .nav-link:hover {
   color: #fff;
-  background-color: #58e lcl;
+  background-color: #58e1c1;
 }
 
 /* ============================================= */
@@ -580,7 +580,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media ((min-width:768px)) {
+@media (min-width: 768px) {
   .container {
     max-width: 1400px;
     display: block;
